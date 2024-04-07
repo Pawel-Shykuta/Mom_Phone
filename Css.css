@@ -1,0 +1,297 @@
+
+@media screen and (min-width: 1025px) {
+    /* Ваши стили для десктопных устройств */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(212, 212, 212);
+   /* position: relative;
+    font-family: 'Not Sans',sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    max-width: 320px;
+    overflow-x:hidden;
+    height: auto;*/
+   
+
+
+
+.header .Container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(224, 224, 224) ;
+    opacity: .9;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 px 6px rgba(219, 2, 2, 0.1);
+
+}
+.Menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+.Menu li{
+    display:contents;
+    
+}
+
+.Menu li a {
+    display: inline-block;
+    color: rgb(58, 58, 58);
+    opacity: .8;
+    text-decoration: none;
+   padding: 20px;
+   transition: all .2s ease-in-out;
+    
+}
+
+.Menu li a:hover {
+    color: rgb(105, 255, 5);
+    opacity: 1;
+    
+}
+
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+
+.logotyp{
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration:  none;
+    color: pink;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.logotyp:hover{
+    color: purple;
+    transition: all .4s ease-in-out;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+   
+}
+
+
+button{
+    background: rgb(112, 110, 110);
+    color: blue;
+    width: 70px;
+    height: 35px;
+    border-radius: 50%;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, .8);
+}
+
+button:hover{
+    color: green;
+    background: rgba(255, 1, 213, 0.616);
+    transition: all .4s ease-in-out;
+    text-shadow: 6px 4px 8px rgba(0, 0, 0, 1);
+
+}
+
+
+.header{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/The_Shave.jpg/300px-The_Shave.jpg);
+}
+
+.BackFoto{
+    background-image: url(Foto/istockphoto-1244833615-2048x2048.jpg);
+    background-size: cover;  
+    border: 4px solid silver;   
+  
+}
+#Foto{
+    opacity: .9;
+    width:  50%;
+    height: 50%;
+    margin-top: 25px;
+    
+    border: 4px solid rgba(233, 12, 203, 0.247); 
+}
+p{
+    text-align: justify;
+    color:rgba(21, 248, 0, 0.849);
+    margin-left: -10px;
+}
+
+.BackFoto{
+    display: flex; /* Используем flexbox для управления размещением элементов */
+    align-items: center; /* Выравнивание элементов по вертикали */
+}
+
+.BackFoto img{
+    margin-right: 20px; /* Отступ между изображением и текстом */
+    max-width: 100%; /* Ограничение максимальной ширины изображения */
+    margin-right: 20px;
+}
+
+p:hover{
+    color: blueviolet;
+    transition: all .2s ease-in-out ;
+} 
+}
+}
+
+@media screen and (max-width: 768px) {
+    /* Ваши стили для мобильных устройств */
+    body{
+        margin: 0;
+        padding: 0;
+        background: rgb(212, 212, 212);
+       /* position: relative;
+        font-family: 'Not Sans',sans-serif;
+        font-size: 16px;
+        line-height: 1.4;
+        color: #000;
+        max-width: 320px;
+        overflow-x:hidden;
+        height: auto;*/
+
+        
+        .header .Container{
+            height: inherit;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:rgb(224, 224, 224) ;
+            opacity: .9;
+        }
+        
+        .header{
+            width: 100%;
+            height: 40px;
+            box-shadow: 0 px 6px rgba(219, 2, 2, 0.1);
+        
+        }
+        .header{
+            width: 100%;
+            height: 70px;
+            box-shadow: 0 px 6px rgba(219, 2, 2, 0.1);
+        
+        }
+        .Menu{
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        
+        }
+        .Menu li{
+            display:contents;
+            
+        }
+        
+        .Menu li a {
+            display: inline-block;
+            color: rgb(58, 58, 58);
+            opacity: .8;
+            text-decoration: none;
+           padding: 10px;
+           transition: all .2s ease-in-out;
+            
+        }
+        
+        .Menu li a:hover {
+            color: rgb(105, 255, 5);
+            opacity: 1;
+            
+        }
+    
+        .navbar-wrap{
+            display: flex;
+            flex-flow: row ;
+            
+        }
+        
+        
+        .logotyp{
+            font-weight: 700;
+            font-size: 16px;
+            text-decoration:  none;
+            color: pink;
+            text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .logotyp:hover{
+            color: purple;
+            transition: all .4s ease-in-out;
+            text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+           
+        }
+
+        
+    
+    
+
+    button{
+        background: rgb(112, 110, 110);
+        color: blue;
+        width: 40px;
+        height: 15px;
+        border-radius: 50%;
+        text-shadow: 3px 2px 4px rgba(0, 0, 0, .8);
+        font-size: 40%;
+        text-align: left;
+    }
+    
+    button:hover{
+        color: green;
+        background: rgba(255, 1, 213, 0.616);
+        transition: all .4s ease-in-out;
+        text-shadow: 6px 4px 8px rgba(0, 0, 0, 1);
+    
+    }
+    
+    
+    .header{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/The_Shave.jpg/300px-The_Shave.jpg);
+    }
+    
+    .BackFoto{
+        background-image: url(Foto/istockphoto-1244833615-2048x2048.jpg);
+        background-size: cover;  
+        border: 4px solid silver;   
+      
+    }
+    #Foto{
+        opacity: .9;
+        width:  50%;
+        height: 50%;
+        margin-top: 15px;
+        
+        border: 4px solid rgba(233, 12, 203, 0.247); 
+    }
+    p{
+        text-align: justify;
+        color:rgba(21, 248, 0, 0.849);
+        margin-left: -10px;
+        font-size: 10px;
+    }
+    
+    .BackFoto{
+        display: flex; /* Используем flexbox для управления размещением элементов */
+        align-items: center; /* Выравнивание элементов по вертикали */
+    }
+    
+    .BackFoto img{
+        margin-right: 20px; /* Отступ между изображением и текстом */
+        max-width: 100%; /* Ограничение максимальной ширины изображения */
+        margin-right: 20px;
+    }
+    
+    p:hover{
+        color: blueviolet;
+        transition: all .2s ease-in-out ;
+    } 
+}
+    
+}
